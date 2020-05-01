@@ -10,6 +10,7 @@ import store from "./store";
 import pi from "./views/provide&inject/person";
 
 Vue.config.productionTip = false;
+Vue.prototype.EventBus = new Vue();
 
 new Vue({
   router,
