@@ -7,7 +7,8 @@ import store from "./store";
 // import eimt from "./views/emit/emit";
 // import sync from "./views/sync/sync";
 // import AL from "./views/attrs&listeners/A&L";
-import pi from "./views/provide&inject/person";
+// import pi from "./views/provide&inject/person";
+import eventBus from "./views/EventBus/eventBus.vue";
 
 Vue.config.productionTip = false;
 Vue.prototype.EventBus = new Vue();
@@ -15,7 +16,8 @@ Vue.prototype.EventBus = new Vue();
 new Vue({
   router,
   store,
-  render: h => h(pi)
+  render: h => h(eventBus)
+  // render: h => h(pi)
   // render: h => h(AL)
   // render: h => h(sync)
   // render: h => h(eimt)
