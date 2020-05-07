@@ -13,7 +13,7 @@ import store from "./store";
 // import ref from "./views/ref/person.vue";
 import lifecycle from "./views/lifecycle/person.vue";
 
-//测试revert
+//测试revert2
 
 Vue.config.productionTip = false;
 Vue.prototype.EventBus = new Vue();
