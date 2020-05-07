@@ -14,6 +14,7 @@ import store from "./store";
 import lifecycle from "./views/lifecycle/person.vue";
 
 //测试revert2
+//在iss53问题上修改
 
 Vue.config.productionTip = false;
 Vue.prototype.EventBus = new Vue();
