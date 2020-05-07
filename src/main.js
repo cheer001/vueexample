@@ -13,8 +13,6 @@ import store from "./store";
 // import ref from "./views/ref/person.vue";
 import lifecycle from "./views/lifecycle/person.vue";
 
-//测试git commit
-
 Vue.config.productionTip = false;
 Vue.prototype.EventBus = new Vue();
 
