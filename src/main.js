@@ -24,6 +24,8 @@ import lifecycle from "./views/lifecycle/person.vue";
 
 //第一次改动
 //第二次改动
+//第三次改动
+//把第一次提交的东西与第三次提交的东西edit
 
 Vue.config.productionTip = false;
 Vue.prototype.EventBus = new Vue();
