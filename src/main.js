@@ -15,7 +15,7 @@ import lifecycle from "./views/lifecycle/person.vue";
 
 //测试revert3
 
-//新问题hotfix 1
+//新问题hotfix 1,2
 Vue.config.productionTip = false;
 Vue.prototype.EventBus = new Vue();
 
