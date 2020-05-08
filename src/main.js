@@ -27,6 +27,8 @@ import lifecycle from "./views/lifecycle/person.vue";
 //第三次改动
 //把第一次提交的东西与第三次提交的东西edit
 
+//在iss53分支上修改了问题1
+//在iss53分支上修改了问题2
 Vue.config.productionTip = false;
 Vue.prototype.EventBus = new Vue();
 
