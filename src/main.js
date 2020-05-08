@@ -18,9 +18,7 @@ import lifecycle from "./views/lifecycle/person.vue";
 
 //新问题hotfix 1,2,3
 
-//1,2
-
-//rebase --continue
+//1
 Vue.config.productionTip = false;
 Vue.prototype.EventBus = new Vue();
 
