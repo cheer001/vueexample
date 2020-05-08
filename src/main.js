@@ -13,12 +13,8 @@ import store from "./store";
 // import ref from "./views/ref/person.vue";
 import lifecycle from "./views/lifecycle/person.vue";
 
-<<<<<<< HEAD
-//测试revert3
-=======
 //测试revert2
 //在iss53问题上修改
->>>>>>> iss53
 
 //新问题hotfix
 Vue.config.productionTip = false;
