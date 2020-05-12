@@ -11,7 +11,8 @@ import store from "./store";
 // import eventBus from "./views/EventBus/eventBus.vue";
 // import vmodel from "./views/vmodel/person.vue";
 // import ref from "./views/ref/person.vue";
-import lifecycle from "./views/lifecycle/person.vue";
+// import lifecycle from "./views/lifecycle/person.vue";
+import user from "./views/normalizr/user.vue";
 
 //测试revert2
 //在iss53问题上修改1,2,3
@@ -35,7 +36,8 @@ Vue.prototype.EventBus = new Vue();
 new Vue({
   router,
   store,
-  render: h => h(lifecycle)
+  render: h => h(user)
+  // render: h => h(lifecycle)
   // render: h => h(ref)
   // render: h => h(vmodel)
   // render: h => h(eventBus)
