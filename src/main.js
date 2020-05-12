@@ -20,6 +20,7 @@ import user from "./views/normalizr/user.vue";
 //新问题hotfix 1,2,3
 
 //1,2
+<<<<<<< HEAD
 
 //git rebase -i HEAD~~
 
@@ -30,6 +31,8 @@ import user from "./views/normalizr/user.vue";
 
 //在iss53分支上修改了问题1
 //在iss53分支上修改了问题2
+=======
+>>>>>>> 4af08a2b5ffb267bd66c37cce74b190d3819ff4d
 Vue.config.productionTip = false;
 Vue.prototype.EventBus = new Vue();
 
